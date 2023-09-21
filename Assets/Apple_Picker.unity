@@ -532,7 +532,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4127702620785231180, guid: 8280253a6788a474b8a93686cad11173, type: 3}
       propertyPath: speed
-      value: 10
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 4127702620785231180, guid: 8280253a6788a474b8a93686cad11173, type: 3}
       propertyPath: applePrefab
@@ -540,11 +540,11 @@ PrefabInstance:
       objectReference: {fileID: 1636154470939185442, guid: bb4017f596ac25f4690c6c3081c7eaf9, type: 3}
     - target: {fileID: 4127702620785231180, guid: 8280253a6788a474b8a93686cad11173, type: 3}
       propertyPath: leftAndRightEdge
-      value: 20
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 4127702620785231180, guid: 8280253a6788a474b8a93686cad11173, type: 3}
       propertyPath: chanceTochangeDirections
-      value: 0.02
+      value: 0.003
       objectReference: {fileID: 0}
     - target: {fileID: 4689033865672329095, guid: 8280253a6788a474b8a93686cad11173, type: 3}
       propertyPath: m_IsKinematic
