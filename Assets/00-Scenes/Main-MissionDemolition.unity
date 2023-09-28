@@ -132,6 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 64342869}
+  - component: {fileID: 64342870}
   m_Layer: 0
   m_Name: LaunchPoint
   m_TagString: Untagged
@@ -154,6 +155,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2121035786}
   m_LocalEulerAnglesHint: {x: 0, y: 15, z: 0}
+--- !u!122 &64342870
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 64342868}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4290756543
+  m_Size: 1
 --- !u!1 &106758591
 GameObject:
   m_ObjectHideFlags: 0
@@ -704,6 +717,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2121035786}
   - component: {fileID: 2121035785}
+  - component: {fileID: 2121035787}
   m_Layer: 0
   m_Name: Slingshot
   m_TagString: Untagged
@@ -751,6 +765,81 @@ Transform:
   - {fileID: 64342869}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -15, z: 0}
+--- !u!114 &2121035787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121035784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d22ac69ff8788540a4e3ee498232867, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabProjectile: {fileID: 8694856605799946826, guid: e480b3299926e8f4eb7ee2883d6ec62b, type: 3}
+  velocityMult: 8
+  launchPoint: {fileID: 0}
+  launchPos: {x: 0, y: 0, z: 0}
+  projectile: {fileID: 0}
+  aimingMode: 0
+--- !u!1001 &7695574832509371859
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 759373935854165197, guid: e480b3299926e8f4eb7ee2883d6ec62b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -19.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 759373935854165197, guid: e480b3299926e8f4eb7ee2883d6ec62b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 759373935854165197, guid: e480b3299926e8f4eb7ee2883d6ec62b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.1233826
+      objectReference: {fileID: 0}
+    - target: {fileID: 759373935854165197, guid: e480b3299926e8f4eb7ee2883d6ec62b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 759373935854165197, guid: e480b3299926e8f4eb7ee2883d6ec62b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 759373935854165197, guid: e480b3299926e8f4eb7ee2883d6ec62b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 759373935854165197, guid: e480b3299926e8f4eb7ee2883d6ec62b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 759373935854165197, guid: e480b3299926e8f4eb7ee2883d6ec62b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 759373935854165197, guid: e480b3299926e8f4eb7ee2883d6ec62b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 759373935854165197, guid: e480b3299926e8f4eb7ee2883d6ec62b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8694856605799946826, guid: e480b3299926e8f4eb7ee2883d6ec62b, type: 3}
+      propertyPath: m_Name
+      value: Projectile
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e480b3299926e8f4eb7ee2883d6ec62b, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -759,3 +848,4 @@ SceneRoots:
   - {fileID: 1572004186}
   - {fileID: 1891533724}
   - {fileID: 2121035786}
+  - {fileID: 7695574832509371859}
