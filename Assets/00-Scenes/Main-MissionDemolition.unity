@@ -620,7 +620,7 @@ MonoBehaviour:
   uitLevel: {fileID: 93622428}
   uitShots: {fileID: 1823764557}
   uitButton: {fileID: 581269774}
-  castlePos: {x: 50, y: -9.5, z: 0}
+  castlePos: {x: 30, y: -9.5, z: 0}
   castles:
   - {fileID: 6238147217344188727, guid: 1a45d2e8033e6ad40a2ec9a6dc6174f4, type: 3}
   - {fileID: 6238147217344188727, guid: 58ac8b8d897d4d643a08ecf546ce7787, type: 3}
